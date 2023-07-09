@@ -34,7 +34,7 @@
 @media (max-width: 480px) {
   .matrix input.matrix-cell,
   .matrix span.matrix-cell {
-    width: 30px; /* Reduce the width for smaller screens */
+    width: 20px; /* Reduce the width for smaller screens */
     height: 30px; /* Adjust the height if needed */
     margin: 2px; /* Adjust the margin if needed */
   }
