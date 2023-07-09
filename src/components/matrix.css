@@ -32,7 +32,7 @@
 }
 
 /* Styles for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .matrix input.matrix-cell,
   .matrix span.matrix-cell {
     width: 30px;
