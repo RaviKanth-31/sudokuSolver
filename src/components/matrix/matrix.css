@@ -1,0 +1,41 @@
+.matrix {
+    text-align: center;
+  }
+  
+  .matrix input.matrix-cell,
+  .matrix span.matrix-cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 4px;
+  }
+  
+  .matrix input.matrix-cell:focus {
+    outline: none;
+    box-shadow: 0 0 5px #aaa;
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 480px) {
+    .matrix input.matrix-cell,
+    .matrix span.matrix-cell {
+      width: 20px; /* Reduce the width for smaller screens */
+      height: 30px; /* Adjust the height if needed */
+      margin: 2px; /* Adjust the margin if needed */
+    }
+  }
