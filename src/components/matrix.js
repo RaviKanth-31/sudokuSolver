@@ -18,11 +18,8 @@ const Matrix = ()=>{
             if(Number.isNaN(intValue) || !Number.isInteger(intValue)){
                 setError("Enter valid input")
             }
-            else if(intValue<1){
-                setError(“Enter a value greater than 0”);
-            }
-            else if(intValue>9){
-                setError("Enter a value less than 9");
+            else if(intValue<1 || intValue>9){
+                setError("Enter a value between 1 and 9");
             }
             else{
                 setError('');
